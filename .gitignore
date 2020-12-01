@@ -1,0 +1,16 @@
+*/config/development
+*/logs/log-*.php
+*/logs/!index.html
+*/cache/*
+*/cache/!index.html
+*/cache/!.htaccess
+
+**/.DS_Store
+**/*.p12
+/vendor
+system
+
+docker-compose.yml
+phpdocker
+
+README2.md
