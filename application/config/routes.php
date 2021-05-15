@@ -49,17 +49,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
-$route['default_controller'] = 'login';
+$route['default_controller'] = 'wishlist';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = TRUE;
 
-$route['admin/([a-zA-Z_-]+)/search/(:any)/offset/(:num)'] = '$1/admin/index/search/$2/offset/$3';
-$route['admin/([a-zA-Z_-]+)/search/(:any)/offset']        = '$1/admin/index/search/$2';
-$route['admin/([a-zA-Z_-]+)/offset/(:num)']               = '$1/admin/index/offset/$2';
-$route['admin/([a-zA-Z_-]+)/(:any)/(:any)']               = '$1/admin/$2/$3/$4';
-$route['admin/([a-zA-Z_-]+)/edit/(:any)']                 = '$1/admin/edit/$2';
-$route['admin/([a-zA-Z_-]+)/delete/(:any)']               = '$1/admin/delete/$2';
-$route['admin/([a-zA-Z_-]+)/offset']                      = '$1/admin/index/offset';
-$route['admin/([a-zA-Z_-]+)/(:any)']                      = '$1/admin/$2';
-$route['admin/([a-zA-Z_-]+)']                             = '$1/admin/index';
-$route['admin']                                           = 'admin';
+// $route['admin/([a-zA-Z_-]+)/search/(:any)/offset/(:num)'] = '$1/admin/index/search/$2/offset/$3';
+// $route['admin/([a-zA-Z_-]+)/search/(:any)/offset']        = '$1/admin/index/search/$2';
+// $route['admin/([a-zA-Z_-]+)/offset/(:num)']               = '$1/admin/index/offset/$2';
+// $route['admin/([a-zA-Z_-]+)/(:any)/(:any)']               = '$1/admin/$2/$3/$4';
+// $route['admin/([a-zA-Z_-]+)/edit/(:any)']                 = '$1/admin/edit/$2';
+// $route['admin/([a-zA-Z_-]+)/delete/(:any)']               = '$1/admin/delete/$2';
+// $route['admin/([a-zA-Z_-]+)/offset']                      = '$1/admin/index/offset';
+// $route['admin/([a-zA-Z_-]+)/(:any)']                      = '$1/admin/$2';
+// $route['admin/([a-zA-Z_-]+)']                             = '$1/admin/index';
+// $route['admin']                                           = 'admin';
